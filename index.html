@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+            <div class="calc">
+                <div class="row">
+                    <div class="display">
+                        <input type="textbox" readonly="" class="textbox" />
+                    </div>
+                </div>
+                <div class="row">
+                    <button id="grey" value="AC" class="btn btn-default">AC</button>
+                    <button id="grey" value="CE" class="btn btn-default">CE</button>
+                    <button id="grey" value="%" class="btn btn-default">%</button>
+                    <button id="pink" value="/" class="btn btn-default">/</button>
+                </div>
+                <div class="row">
+                    <button id="black" value="7" class="btn btn-default">7</button>
+                    <button id="black" value="8" class="btn btn-default">8</button>
+                    <button id="black" value="9" class="btn btn-default">9</button>
+                    <button id="pink" value="*" class="btn btn-default">*</button>
+                </div>
+                <div class="row">
+                    <button id="black" value="4" class="btn btn-default">4</button>
+                    <button id="black" value="5" class="btn btn-default">5</button>
+                    <button id="black" value="6" class="btn btn-default">6</button>
+                    <button id="pink" value="-" class="btn btn-default">-</button>
+                </div>
+                <div class="row">
+                    <button id="black" value="1" class="btn btn-default">1</button>
+                    <button id="black" value="2" class="btn btn-default">2</button>
+                    <button id="black" value="3" class="btn btn-default">3</button>
+                    <button id="pink" value="+" class="btn btn-default">+</button>
+                </div>
+                <div class="row">
+                    <button id="black" value="0" class="btn btn-default">0</button>
+                    <button id="black" value="." class="btn btn-default">.</button>
+                    <button id="black" value="ANS" class="btn btn-default">ANS</button>
+                    <button id="orange" value="=" class="btn btn-default">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
